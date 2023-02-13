@@ -152,6 +152,11 @@ idproduto int,
 quantidade_maxima int,
 quantidade_minima int,
 quantidade_atual int,
-ultima_movimentacao date
+ultima_movimentacao date,
+quantidade_lote int
 );
 ```
+
+### Modelo físico - MER(Modelo de Entidade Relacional)
+
+!["Diagrama do Modelo de Entidade Relacional](./modelofisico.png)
